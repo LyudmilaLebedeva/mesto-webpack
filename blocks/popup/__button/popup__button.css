@@ -1,0 +1,19 @@
+.popup__button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 20px;
+  color: white;
+  font-size: 36px;
+  background-color: black;
+}
+
+.popup__button:disabled {
+  background-color: white;
+  color: rgba(0, 0, 0, .2);
+}
+
+.popup__button_type_profile {
+  font-size: 18px;
+  line-height: 22px;
+}

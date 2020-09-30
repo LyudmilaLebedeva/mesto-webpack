@@ -11,7 +11,7 @@ import {UserInfo} from './scripts/UserInfo.js';
 /* Переменные */
 const openNewPlaceFormBtn = document.querySelector('.user-info__button');
 const openEditProfileFormBtn = document.querySelector('.button_edit');
-const API_URL = NODE_ENV === 'production' ? 'https://nomoreparties.co' : 'http://nomoreparties.co';
+const API_URL = process.env.NODE_ENV === 'production' ? 'https://nomoreparties.co' : 'http://nomoreparties.co';
 
 /* Функции */
 const newCard = function (cardData, imagePopup, api, currentUserId) {

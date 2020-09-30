@@ -1,4 +1,6 @@
-class NewPlaceForm extends FormPopup {
+import {FormPopup} from './FormPopup.js';
+
+export class NewPlaceForm extends FormPopup {
   constructor(popup, newCardFunc, imagePopup, cardList, api, currentUserId) {
     super(popup);
 

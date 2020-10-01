@@ -1,8 +1,8 @@
 {
   "name": "mesto-webpack",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Project for learning webpack",
+  "main": "src/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --watch",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/LyudmilaLebedeva/mesto-webpack.git"
   },
-  "author": "",
+  "author": "Lyudmila Lebedeva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LyudmilaLebedeva/mesto-webpack/issues"

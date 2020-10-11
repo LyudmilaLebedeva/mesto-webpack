@@ -1,4 +1,6 @@
-class EditProfileForm extends FormPopup {
+import {FormPopup} from './FormPopup.js';
+
+export class EditProfileForm extends FormPopup {
   constructor(popup, userInfo, api) {
     super(popup);
     this.userInfo = userInfo;
